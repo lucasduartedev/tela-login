@@ -3,3 +3,9 @@
 
 ## Projeto desenvolvido
 <img src="/img/tela-login.png" alt="Imagem do projeto finalizado!">
+
+## Simulação de login
+<img src="/img/tela-login-sucesso.png" alt="Imagem do projeto finalizado!">
+
+<p>Usuário erra usuário ou senha</p>
+<img src="/img/tela-login-falha.png" alt="Imagem do projeto finalizado!">
