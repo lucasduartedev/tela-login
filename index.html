@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autenticação</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,6 +15,8 @@
 <body>
 
     <div class="login_container">
+
+        <h2>Login</h2>
 
         <form id="form_login">
 
@@ -25,7 +28,9 @@
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" placeholder="Senha" required>
             </div>
-            <button type="submit">Logar</button>
+            <div class="grupo_login">
+                <button type="submit">Logar</button>
+            </div>
 
             <div id="mensagem_erro"></div>
             
