@@ -73,12 +73,13 @@ button:hover {
 }
 
 #mensagem_erro {
+    font-size: 20px;
     margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
     transition: background-color 0.3s, color 0.3s;
 }
-.mensagem_erro.success {
+.mensagem_erro.sucesso {
     background-color: #d4edda;
     color: #155724;
 }
