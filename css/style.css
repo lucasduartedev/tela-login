@@ -1,0 +1,17 @@
+:root {
+    --cor-primaria: #fefbd8;
+    --cor-secundaria: #618685;
+    --cor-terciaria: #36486b;
+    --cor-quaternaria: #4040a1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
