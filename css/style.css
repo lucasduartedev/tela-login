@@ -3,7 +3,15 @@
     --cor-secundaria: #618685;
     --cor-terciaria: #36486b;
     --cor-quaternaria: #4040a1;
-    --cor: #f0f0f0;
+    --cinza: #cccccc;
+    --cinza-claro: #f0f0f0;
+    --branco: #ffffff;
+    --azul-btn: #007bff;
+    --azul-btn-escuro: #0056b3;
+    --verde-claro: #d4edda;
+    --verde-escuro: #155724;
+    --vermelho-claro: #f8d7da;
+    --vermelho-escuro: #721c24;
 }
 
 * {
@@ -18,17 +26,21 @@ body {
   align-items: center;
   font-weight: 700;
   font-style: normal;
-  background-color: #f0f0f0;
+  background-color: var(--cinza-claro);
   font-size: 28px;
   height: 100vh;
 }
 
 .login_container {
-    background-color: #fff;
+    background-color: var(--branco);
     padding: 20px;
     border-radius: 8px;
     width: 300px;
     text-align: center;
+}
+
+.login_container__titulo {
+    margin: 0.7em;
 }
 
 .grupo_login {
@@ -45,21 +57,23 @@ body {
     /* font-size: 20px; */
     display: block;
     margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .grupo_login input {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid var(--cinza);
     border-radius: 4px;
-    background-color: #fff;
+    background-color: var(--branco);
     color: #333;
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: var(--azul-btn);
+    color: var(--branco);
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -69,7 +83,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: var(--azul-btn-escuro);
 }
 
 #mensagem_erro {
@@ -80,11 +94,11 @@ button:hover {
     transition: background-color 0.3s, color 0.3s;
 }
 .mensagem_erro.sucesso {
-    background-color: #d4edda;
-    color: #155724;
+    background-color: var(--verde-claro);
+    color: var(--verde-escuro);
 }
 
 .mensagem_erro.error {
-    background-color: #f8d7da;
-    color: #721c24;
+    background-color: var(--vermelho-claro);
+    color: var(--vermelho-escuro);
 }
